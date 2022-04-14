@@ -1,0 +1,35 @@
+.container {
+
+    width: 75%;
+
+}
+
+
+
+#app {
+
+    padding: 10vh 6vw 0;
+
+    display: grid;
+
+    /*tablas de exel*/
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+    grid-gap: 1rem;
+
+    justify-items: center;
+
+    /*grid-template-areas: 'hola hola hola' 'lala hola lala';*/
+
+}
+
+
+
+.contador {
+
+    grid-column: 1/4;
+
+}

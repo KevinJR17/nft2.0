@@ -7,7 +7,7 @@
 body{
     font-family: 'Outfit', sans-serif;
     background: hsl(217, 54%, 11%);
-    display: flex;
+    /*display: flex;*/
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -121,10 +121,61 @@ hr{
 
     font-size: 16px;
 
+    margin: 5px;
+
 }
 
 .author p a.name:hover{
 
     color: hsl(178, 100%, 50%);
+
+}
+
+.button {
+
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #FFF;
+    letter-spacing: 3px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0s;
+    background-color: 	#008080;
+
+}
+
+
+
+.button:hover {
+
+    background: #00ffff;
+
+    box-shadow: 0 0 10px #00ffff, 0 0 40px #00ffff, 0 0 80px #00ffff;
+
+    transition-delay: 0s;
+
+}
+
+
+
+.button:disabled {
+
+    opacity: 0.5;
+
+}
+
+
+
+.contador {
+
+    margin: 10px 0;
+
+    display: flex;
+
+    align-content: center;
+
+    justify-content: space-around;
 
 }
